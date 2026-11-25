@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shortcut: Ghi chú (Notes) -->
+    <shortcut
+        android:shortcutId="notes"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_notes_short"
+        android:shortcutLongLabel="@string/shortcut_notes_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.voicehub"
+            android:targetClass="com.example.voicehub.MainActivity"
+            android:data="voicehub://notes" />
+        <capability android:name="actions.intent.OPEN_APP_FEATURE">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="voicehub://notes">
+                <parameter
+                    android:name="feature"
+                    android:key="feature" />
+            </intent>
+        </capability>
+    </shortcut>
+
+    <!-- Shortcut: Máy tính giọng nói (Calculator) -->
+    <shortcut
+        android:shortcutId="calculator"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_calc_short"
+        android:shortcutLongLabel="@string/shortcut_calc_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.voicehub"
+            android:targetClass="com.example.voicehub.MainActivity"
+            android:data="voicehub://calculator" />
+        <capability android:name="actions.intent.OPEN_APP_FEATURE">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="voicehub://calculator" />
+        </capability>
+    </shortcut>
+
+    <!-- Shortcut: Ghi âm (Recording) -->
+    <shortcut
+        android:shortcutId="recording"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_rec_short"
+        android:shortcutLongLabel="@string/shortcut_rec_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.voicehub"
+            android:targetClass="com.example.voicehub.MainActivity"
+            android:data="voicehub://recording" />
+        <capability android:name="actions.intent.RECORD_AUDIO">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="voicehub://recording" />
+        </capability>
+    </shortcut>
+
+    <!-- Shortcut: Nhật ký (Journal) -->
+    <shortcut
+        android:shortcutId="journal"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_journal_short"
+        android:shortcutLongLabel="@string/shortcut_journal_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.voicehub"
+            android:targetClass="com.example.voicehub.MainActivity"
+            android:data="voicehub://journal" />
+        <capability android:name="actions.intent.OPEN_APP_FEATURE">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="voicehub://journal" />
+        </capability>
+    </shortcut>
+
+</shortcuts>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "804003274340",
+    "project_id": "voicehud",
+    "storage_bucket": "voicehud.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804003274340:android:7dfe44c77d9155a90c8971",
+        "android_client_info": {
+          "package_name": "com.example.voicehub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRKHvXXmQSGfPkOHtVQ9eS5zNF9wah028"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
