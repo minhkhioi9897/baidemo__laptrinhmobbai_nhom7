@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">voicehub</string>
+    <string name="shortcut_notes_short">Ghi chú</string>
+    <string name="shortcut_notes_long">Tạo hoặc xem ghi chú</string>
+    <string name="shortcut_calc_short">Máy tính</string>
+    <string name="shortcut_calc_long">Máy tính giọng nói</string>
+    <string name="shortcut_rec_short">Ghi âm</string>
+    <string name="shortcut_rec_long">Ghi âm giọng nói</string>
+    <string name="shortcut_journal_short">Nhật ký</string>
+    <string name="shortcut_journal_long">Viết nhật ký</string>
+</resources>
